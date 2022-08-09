@@ -1,5 +1,10 @@
 # cpu
 
+cpu load 过高
+用top 查看到running task 20多。 过一会降到了2个
+用 ps aux | less 查看哪些是运行的 r表示运行的。
+ 
+
  top -Hp 38330
  
  printf "%x\n" [线程id]
